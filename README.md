@@ -12,7 +12,7 @@ gcloud builds submit --tag gcr.io/<your-project-name>/firestore-crash
 ```
 
 * Deploy new service in Cloud Run without authentification.
-* Execute https://<your name>.run.app/test
+* Execute https://insert-deployed-service-name.run.app/test
 
 -> Service Unavailable                                                                            
 -> Logs: "Uncaught signal: 11, pid=1, tid=18, fault_addr=453942."
