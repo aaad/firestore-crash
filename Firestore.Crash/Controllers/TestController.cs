@@ -44,6 +44,7 @@ namespace Firestore.Crash.Controllers
                     collection
                     .Limit(1)
                     .StreamAsync()
+                    .Select(d => d.ToDictionary())
                     .FirstOrDefault());
         }
 

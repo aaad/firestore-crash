@@ -328,3 +328,6 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/deploy_local_docker.bat
+/deploy_collector_to_google.bat
+/Firestore.Crash/firebase-dev-key.json
